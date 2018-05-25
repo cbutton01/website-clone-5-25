@@ -20,3 +20,17 @@
   justify-content: center;
   flex-wrap: nowrap;
 }
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.body-container {
+  display: grid;
+}
+
+.main-body {
+  background-color: #ccc;
+  height: 500px;
+}
