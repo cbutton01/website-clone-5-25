@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+}
+
+#heading {
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#heading-left {
+  display: flex;
+  align-items: baseline;
+}
+
+#heading-right {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
