@@ -27,7 +27,10 @@
 }
 
 .body-container {
+  margin-top: 10%;
+  background-color: black;
   display: grid;
+  grid-template-columns: 1fr 75% 1fr;
 }
 
 .main-body {
