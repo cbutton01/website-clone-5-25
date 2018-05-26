@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid red;
 }
 
 .nav-bar {
@@ -18,12 +17,11 @@
 
 .main-body {
   background-color: #ccc;
-  height: 500px;
 }
 
 .grid {
   display: grid;
-  grid-auto-rows: 80px;
+  grid-template-rows: repeat(auto-fit, minmax(80px, 1fr));
   grid-template-columns: 33% 33% 33%;
   grid-auto-flow: dense;
 }
@@ -38,7 +36,18 @@
   color: white;
 }
 
+.red {
+  background-color: red;
+}
+
+#red-navbar {
+  color: white;
+  background-color: red;
+}
+
 #heading {
+  color: white;
+  background-color: black;
   padding: 2%;
   display: flex;
   justify-content: space-between;
